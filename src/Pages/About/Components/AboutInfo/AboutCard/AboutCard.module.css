@@ -1,0 +1,13 @@
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0;
+}
+.card_text {
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.6;
+    color: #fff;
+}
+

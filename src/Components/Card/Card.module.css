@@ -1,0 +1,18 @@
+.card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .card_image {
+    margin-bottom: 5%;
+  }
+  .card_title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 5%;
+  }
+  .card_subtile {
+    flex: 20px;
+  }

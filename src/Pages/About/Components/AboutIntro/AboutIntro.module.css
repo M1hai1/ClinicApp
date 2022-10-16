@@ -1,0 +1,57 @@
+.intro_inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .intro_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .intro_name {
+    font-size: 20px;
+  }
+  .intro_title {
+    font-size: 35px;
+  }
+  .intro_text {
+    font-size: 18px;
+  }
+  
+  .intro_button {
+    align-items: center;
+    border: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: inherit;
+  }
+  .button_icon {
+    width: 50px;
+    height: 50px;
+    background-color: #3FC1C9;
+  }
+  .button_text_dark {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .button_text_light {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+
+  }
+
+  .container_dark {
+    background-color: #000;
+    color: #fff;
+    transition: .3s all linear;
+
+  }
+  .container_light {
+    background-color: #fff;
+    color: #000;
+    transition: .3s all linear;
+
+  }

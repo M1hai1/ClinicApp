@@ -1,0 +1,18 @@
+.sectionTitle {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.dark_container {
+    background-color: #000;
+    color: #fff;
+    transition: .3s all linear;
+
+  }
+  
+  .light_container {
+    background-color: #fff;
+    color: #000;
+    transition: .3s all linear;
+
+  }

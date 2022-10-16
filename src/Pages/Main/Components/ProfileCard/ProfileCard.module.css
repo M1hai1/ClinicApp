@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.card * {
+    margin-bottom: 5%;
+}
+.card_title {
+    font-size: 24px;
+    font-weight: 400;
+}
+.card_proffession {
+    font-size: 24px;
+    color: #3FC1C9;
+    font-weight: normal;
+}
+.card_text {
+    font-size: 20px;
+}
+.card_time {
+    font-size: 20px;
+    color: #3FC1C9;
+}
+.card_button {
+    display: block;
+    color: #000;
+    text-decoration: underline;
+    font-size: 24px;
+    cursor: pointer;
+}

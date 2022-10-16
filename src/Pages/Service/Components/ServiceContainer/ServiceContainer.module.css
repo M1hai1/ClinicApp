@@ -1,0 +1,19 @@
+.card_container {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+.container_dark {
+  background-color: #000;
+  color: #fff;
+  transition: .3s all linear;
+
+}
+.container_light {
+  background-color: #fff;
+  color: #000;
+  transition: .3s all linear;
+
+}

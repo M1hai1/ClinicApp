@@ -1,0 +1,33 @@
+.main_title {
+    padding: 10% 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title_title {
+    max-width: 40%;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .title_subtitle {
+    font-size: 24px;
+    width: 50%;
+  }
+
+  .dark_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+    background-color: #000;
+  }
+  .light_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #000;
+    background-color: #fff;
+  }

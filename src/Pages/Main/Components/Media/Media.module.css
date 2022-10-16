@@ -1,0 +1,33 @@
+.media {
+    display: flex;
+    align-items: center;
+    padding: 7% 0;
+  }
+  
+  .media_text {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15%;
+  }
+  
+  .media_buttons {
+    width: 50%;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+.dark_container {
+  background-color: #000;
+  color: #fff;
+}
+
+.light_container {
+  background-color: #fff;
+  transition: .3s all linear;
+
+  color: #000;
+  transition: .3s all linear;
+
+}

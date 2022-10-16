@@ -1,0 +1,14 @@
+.card_text {
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.6;
+    color: #fff;
+}
+
+
+.reverse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}

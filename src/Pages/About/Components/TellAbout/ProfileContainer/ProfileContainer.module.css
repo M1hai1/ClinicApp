@@ -1,0 +1,40 @@
+
+.inner_title {
+  padding: 5% 0;
+    text-align: center;
+    font-size: 30px;
+  }
+
+
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.profileLink {
+  opacity: .5;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: inherit;
+
+}
+.profileLink:hover {
+  opacity: 1;
+}
+
+.dark_container {
+  background-color: #000;
+  color: #fff;
+  transition: .3s all linear;
+
+}
+
+.light_container {
+  background-color: #fff;
+  color: #000;
+  transition: .3s all linear;
+
+}

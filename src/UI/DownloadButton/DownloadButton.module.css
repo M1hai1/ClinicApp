@@ -1,0 +1,17 @@
+.download {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E4E4E4;
+    padding: 2% 5%;
+    border: none;
+  }
+  .download:hover {
+    cursor: pointer;
+  }
+  .download_text {
+    margin-right: 10%;
+    font-size: 24px;
+    font-weight: 400px;
+  }

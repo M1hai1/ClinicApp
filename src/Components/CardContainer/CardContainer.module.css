@@ -1,0 +1,20 @@
+.card_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark_container {
+  padding: 10% 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+}
+
+.light_container {
+  padding: 10% 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #000;
+}
