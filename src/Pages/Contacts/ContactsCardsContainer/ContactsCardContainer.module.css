@@ -1,0 +1,16 @@
+.dark_container {
+    background-color: #000;
+    color: #fff;
+}
+.light_container {
+    background-color: #fff;
+    color: #3FC1C9;
+}
+
+.card_container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

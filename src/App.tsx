@@ -10,6 +10,7 @@ import Doctors from './Pages/Doctors/Doctors';
 import Service from './Pages/Service/Service';
 import Contacts from './Pages/Contacts/Contacts';
 import UpButton from './Components/UpButton/UpButton';
+import ModalError from './Components/Modal/ModalError/ModalError';
 
 
 

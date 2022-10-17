@@ -1,0 +1,21 @@
+.modalError {
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    border: 1px solid red;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    animation: ani 2s forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateY(-150%);}
+  50% {transform: translateY(0);}
+  100% {transform: translateY(-150%);}
+}
+

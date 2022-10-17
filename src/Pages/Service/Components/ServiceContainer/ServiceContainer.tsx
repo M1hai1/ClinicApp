@@ -1,4 +1,7 @@
 import React from 'react';
+import Loader from '../../../../Components/Loader/Loader';
+import ModalError from '../../../../Components/Modal/ModalError/ModalError';
+import ModalSuccess from '../../../../Components/Modal/ModalSuccess/ModalSuccess';
 import { useAppSelector } from '../../../../redux/hooks/hooks';
 import { userAPI } from '../../../../redux/server/UserService';
 import ProfileCard from '../../../Main/Components/ProfileCard/ProfileCard';
@@ -15,17 +18,20 @@ const ServiceContainer = () => {
         <div className={theme ? styles.container_dark : styles.container_light}>
             <div className='container'>
             <div className={styles.card_container}>
-                {isLoading && <h1>Загрузка</h1>}
-                {isError && <h1>Ошибка</h1>}
-                {users && users.map(user => 
+                {isLoading && <Loader/>}
+                {isError && <ModalError/>}
+                {users && users.map(user =>
+                <> 
                     <ProfileCard
                         proffession={user.proffession}
                         time={user.time}
                         title={user.name}
                         text={user.subscription}
                     />
+                    <ModalSuccess/>
+                </>
                 )}
-                </div>
+            </div>
             </div>
         </div>
     );
